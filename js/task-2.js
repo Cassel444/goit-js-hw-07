@@ -17,7 +17,7 @@ const markup = images
   .map(({ url, alt }) => {
     return `
     <li>
-      <img url="${url}",
+      <img src="${url}",
       alt="${alt}"/>
     </li >
     `

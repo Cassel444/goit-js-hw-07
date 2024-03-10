@@ -33,7 +33,7 @@ h1,h2 {
 h2 {
   margin: 0 0 16px 0;
 }
-li,input {
+.item > ul > li,input {
   color: #2E2F42;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
