@@ -16,6 +16,7 @@ function handleClickCreate() {
   if (amount <= 0 || amount > 100) {
     return;
   }
+  handleClickDestroy();
   const boxesArr = [];
   for (let i = 0; i < amount; i += 1) {
     const boxSize = 30 + i * 10;
